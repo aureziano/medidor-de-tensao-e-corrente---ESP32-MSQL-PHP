@@ -30,8 +30,8 @@
 #define ADC_BITS 12 //Define a leitura como 12 Bits
 #define VOLT_CAL_1 42.5 //VALOR DE CALIBRAÇÃO (DEVE SER AJUSTADO EM PARALELO COM UM MULTÍMETRO)
 #define VOLT_CAL_2 41.5
-const char* ssid     = "DZ-302";
-const char* password = "dz11270107";
+const char* ssid     = "";
+const char* password = "";
 HTTPClient http;
 
 const long  gmtOffset_sec = -3*3600;
