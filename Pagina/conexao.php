@@ -1,7 +1,7 @@
 <?php
     try
     {
-        $mysqli = new mysqli('localhost', 'id14454140_adm', 'Cerveja2020-', 'id14454140_teste');
+        $mysqli = new mysqli('localhost', '', '', '');
     } 
     catch(PDOException $erro)
     {
